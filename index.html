@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Guessing Game</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+  </head>
+
+  <body>
+
+      <div id='app' class="center container">
+
+        <div id='headers'>
+          <h1 id="title">Guessing Game!</h1>
+          <h2 id="subtitle">Guess a number between 1-100</h2>
+        </div>
+
+        <div id='main'>
+          <div id='input-parent'>
+            <input id='player-input' type="text" name="text" autofocus="" placeholder="#" maxlength="3">
+
+
+            <input id="submit" class="btn btn-success" type="button" name="Go" value="Go!">
+
+          </div>
+
+          <div id='guesses'>
+            <ul class="guess">
+              <li>–</li>
+              <li>–</li>
+              <li>–</li>
+              <li>–</li>
+              <li>–</li>
+            </ul>
+          </div>
+
+          <div id="menu-btns">
+            <!-- reset and hint buttons -->
+            <button id="reset" type="reset" class="btn btn-warning">Start over</button>
+            <button id="hint" type="submit" class="btn btn-info">Get a hint</button>
+          </div>
+        </div>
+      </div>
+
+    <div id='footer' class="center">
+        <div class="row">
+          <div class='col-sm-4'>
+            <img src='img/fa-logo@2x.png'></img>
+          </div>
+
+          <div class='col-sm-4'>
+            <h4>Project by Adam M. Intrator</h4>
+          </div>
+
+          <div class='col-sm-4'>
+            <img src='img/grace_hopper_academy.png'></img>
+          </div>
+
+
+        </div>
+    </div>
+
+    <script
+    src="https://code.jquery.com/jquery-3.1.1.min.js"
+    integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+    crossorigin="anonymous"></script>
+
+    <script src="js/GuessingGame.js"></script>
+
+  </body>
+<script
+</html>
